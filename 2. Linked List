@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNPJwtDaFCPGE9gteCObzg7",
+      "authorship_tag": "ABX9TyPZ8gNkc5N29k6FYk8Wly3r",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -73,6 +73,71 @@
         "\n",
         "print(b.next)\n",
         "int(0x7ba08c02fc50)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 2. Create a Linked List\n",
+        "\n",
+        "\n",
+        "\n",
+        "class LinkedList:\n",
+        "  def __init__(self):\n",
+        "    # First we need to create an empty linked list\n",
+        "    self.head = None\n",
+        "    self.n = 0    # Counts the number of nodes in Linked list, since it is empty so 0 for now.\n",
+        "\n",
+        "L = LinkedList()"
+      ],
+      "metadata": {
+        "id": "5vI5-2QzI0D1"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 3. len of linked list\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "class LinkedList:\n",
+        "  def __init__(self):\n",
+        "    # First we need to create an empty linked list\n",
+        "    self.head = None\n",
+        "    self.n = 0    # Counts the number of nodes in Linked list, since it is empty so 0 for now.\n",
+        "\n",
+        "\n",
+        "  def __len__(self):\n",
+        "    # len of linked list is no. of nodes in the linked list\n",
+        "    return self.n\n",
+        "\n",
+        "L = LinkedList()\n",
+        "\n",
+        "len(L)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oP1Ah_m2JPbl",
+        "outputId": "44e4e152-0ed6-4e1b-87e2-9fa6610f1469"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
       ]
     }
   ]
