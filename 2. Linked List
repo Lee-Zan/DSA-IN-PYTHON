@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNPJwtDaFCPGE9gteCObzg7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Lee-Zan/DSA-IN-PYTHON/blob/main/2.%20Linked%20List\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Bjs01YPJ0CML",
+        "outputId": "b65930df-e64b-4707-d3a1-ad6490b8a0bb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<__main__.Node object at 0x7cc258632c10>\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "135929473989712"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "# 1. Creating Node\n",
+        "\n",
+        "\n",
+        "class Node:\n",
+        "  def __init__(self, value):\n",
+        "    self.data = value\n",
+        "    self.next = None\n",
+        "\n",
+        "a = Node(1)\n",
+        "b = Node(2)\n",
+        "c = Node(3)\n",
+        "\n",
+        "a.next = b\n",
+        "b.next = c\n",
+        "\n",
+        "print(b.next)\n",
+        "int(0x7ba08c02fc50)"
+      ]
+    }
+  ]
+}
